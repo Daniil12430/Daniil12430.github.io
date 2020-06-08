@@ -35,3 +35,37 @@ main {
 	height: calc(95vh / 16*9);
 	margin: 5px;
 }
+.img-link:hover{
+	/*Плавность анимации*/
+	transition: 1.5s;
+	/*Размытие*/
+	/*filter: blur(4px);
+	/*Яркость*/
+	filter: brightness(110%);
+	/*Контрастность*/
+	filter: contrast(150%);
+	/*Отбрасывание тени*/
+	filter: drop-shadow(10px 82px 82px #428);
+	/*Перевод в чёрно-белое*/
+	/*filter: grayscale(150%)
+	/*Меняет цвета изображения в зависимости от цветового круга*/
+	/*filter: hue-rotate(340deg);
+	/*Делает негатив изображения (инвертирует)*/
+	filter: invert(500);
+	/*Насыщенность цветов*/
+	filter: saturate(50);
+	/*Сепия(эффект старины)*/
+	/*filter: sepia(150);
+	/*Масштаб*/
+	/*transform: scale(120)*/
+	/*Поворот*/
+	/*transform: rotate(-15deg)
+	/*Перенос это смещение куда-либо*/
+	/*transform: translate(-200px, -100px)
+	/*Все сразу*/
+	/*transform: scale(0.5) rotate(-15deg) translate(-200px, -100px);
+	/*Настойки*/
+	filter: brightness(110%) contrast(150%) drop-shadow(10px 82px 82px #428)  saturate(25);
+
+
+}
